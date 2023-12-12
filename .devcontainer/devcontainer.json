@@ -6,7 +6,7 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false
-}{
+}{                                                                      
   // Name this configuration
   "name": "Codespace for Skills!",
   // Use the base codespace image
@@ -28,4 +28,6 @@
          ]
      }
  }
+   ,
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
 }
